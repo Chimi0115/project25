@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project 25</title>
+    </head>
+    <body>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <script>
+            var i = (Math.random());
+            var text="";
+             while (i < 20) {
+                    text += "The number is " +Math.floor(Math.random()*100)+ "<br>";
+                    i++;
+                }
+                document.getElementById("p1").innerHTML = text;
+        </script>
+    </body>
+</html>
